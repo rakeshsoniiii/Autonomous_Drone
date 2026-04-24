@@ -1,6 +1,9 @@
 # ESP_E58-Drone
 Controlling an E58 drone with an ESP8266 uC
 
+
+https://github.com/RomanLut/hx_espnow_rc/tree/main
+
 The idea of this project is to use a really cheap drone as **plattform for experiements with GPS, compass, optical flow, and other sensors and finally to build an autonomous drone**. To achive that, first I had to find a way for simply adding new sensors and control software, if possible without reengineering the the whole onboard-software. The approach is, to add an additional ESP8266 controller onboard and let it interface with the drone's native controller via WiFi.
 
 ## The Drone
